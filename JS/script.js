@@ -27,5 +27,8 @@ async function getQuote(url) {
         console.error('Error fetching quote:', error.message);
     }
 }
-
 getQuote(api_url);
+
+function facebook() {
+    window.open("https://www.facebook.com/sharer/sharer.php?u=example.org");
+}
