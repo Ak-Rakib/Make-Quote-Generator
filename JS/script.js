@@ -30,5 +30,5 @@ async function getQuote(url) {
 getQuote(api_url);
 
 function facebook() {
-    window.open("https://www.facebook.com/sharer/sharer.php?u=example.org");
+    window.open("https://www.facebook.com/sharer/sharer.php?u=example.org", "facebook window", "width=600, height=300");
 }
